@@ -291,7 +291,11 @@ img.add{
 
 	position: fixed;
 	border: 5px solid grey;
-	margin-top: 300px;
-	margin-left: 150px;
+	top: 300px;
+	left: 150px;
 	padding: 5px;
+	width: 120px;
+	height: 120px;
+
+
 }
