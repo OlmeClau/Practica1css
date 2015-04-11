@@ -1,5 +1,5 @@
 header{
-	background-color: grey;
+	background-color: #006699;
 	height: 130px;
 	 margin-left: -8px;
     margin-top: -20px;
@@ -8,7 +8,7 @@ header{
 }
 div.sign{
 	font-family: courier;
-	background-color: grey;
+	background-color: #006699;
 	color: white;
 	margin-left: -700px;
 
@@ -19,7 +19,7 @@ div.sign{
 
 }
 div.head{
-	background-color: grey;
+	background-color: #006699;
 	color:white;
 	font-size: 50px;
 	margin-left: 180px;
@@ -28,7 +28,7 @@ div.head{
 	position: relative;	
 	top:30%;
 	
-	width:380px;
+	width:580px;
 	height: 50px;
 
 
@@ -49,7 +49,7 @@ li.header {
   font-weight: 600;
 }
 footer{
-background-color: grey;
+background-color: #006699;
 	height: 150px;
     margin-top: 100px;
     margin-left: -8px;
@@ -59,13 +59,14 @@ background-color: grey;
 
 
 
+
 }
 div.img{
 	color: grey;
 	font-family: courier;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 180px;
+	height: 180px;
 	line-height:50px;
 	font-size: 20;
 
@@ -77,6 +78,15 @@ img.sizes{
 	float: center;
 	width: 200px;
 	height: 200px;
+}
+img.logo{
+margin-top: 5px;
+margin-right: 10px;
+margin-left: 10px;
+
+height: 50px;
+width: 50px;
+
 }
 ul.img { 
   list-style-type: none; 
@@ -111,7 +121,9 @@ font-size: 15;
 h1.sub{
 	color: grey;
 	font-family: courier;
-	margin-left: 200px;
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align: center;
 	font-weight: 100;
 
 }
@@ -193,6 +205,8 @@ border: 1px solid #a1a1a1;
 }
 table{
 	margin-left: 400px;
+	margin-right: 400px;
+
 	margin-top: 100px;
 	border: 1px solid #a1a1a1;
     border-radius: 10px;
@@ -208,6 +222,7 @@ border: 1px solid #a1a1a1;
 background: -webkit-linear-gradient(lightblue, grey);
 color: white;
 border: none;
+text-align: center;
 
 }
 th.topLeft{
@@ -271,4 +286,12 @@ td.specialWhiteRight{
 	color: #777;
 	text-align: right;
 	
+}
+img.add{
+
+	position: fixed;
+	border: 5px solid grey;
+	margin-top: 300px;
+	margin-left: 150px;
+	padding: 5px;
 }
